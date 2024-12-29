@@ -11,7 +11,7 @@ body {
     align-items: center;
 }
 .heading {
-    
+   font-size: 20px;
     margin: 4px;
     margin-left: 8.5pc;
     display: block;
@@ -21,12 +21,13 @@ body {
     color: rgb(50, 158, 201);
 }
 .links {
+    font-size: 20px;
     display: flex;
     flex-direction: row;
     text-decoration: none;
     list-style-type: none;
     width: 30pc;
-    margin-left: 45pc;
+    margin-left: 43pc;
     justify-content: space-between;
 }
 a {
@@ -38,21 +39,25 @@ a:hover {
     color: rgb(50, 158, 201);
 }
 .contact-heading {
+    font-size: 40px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 5pc;
+    margin-top: 10pc;
 }
 .contact-form {
+    display: flex;
+    flex-direction: row;
     margin: 3pc;
-    margin-left: 31pc;
-    margin-top: 10pc;
-    display: inline-block;
+    margin-left: 12.8pc;
+    margin-top: 7pc;
+    margin-bottom: 7pc;
     align-items: center;
     line-height: 8px;
 }
 input {
     border: 2px solid rgba(50, 158, 201, 0.582);
     border-radius: 8px;
-    width: 20pc;
+    width: 23pc;
     height: 50px;
     background-color: #151b27;
 }
@@ -60,8 +65,8 @@ input:hover {
     background-color: rgba(28, 67, 117, 0.114) ;
 }
 textarea {
-    margin-top: 8px;
-    width: 40.9pc;
+   margin-top: 8px;
+    width: 46.8pc;
     border: 2px solid rgba(50, 158, 201, 0.582);
     border-radius: 8px;
     background-color: #151b27;
@@ -70,16 +75,14 @@ textarea:hover {
     background-color: rgba(28, 67, 117, 0.114) ;
 }
 button {
-    padding: 10px;
-    padding-left: 18px;
-    padding-right: 18px;
-    margin: 10px;
+    padding: 13px;
+    padding-left: 23px;
+    padding-right: 23px;
     margin-top: 20px;
-    margin-left: 17.5pc;
     background-color: rgb(50, 158, 201);
-    border-radius: 8px;
+    border-radius: 20pc;
     border: none;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
 }
 button:hover {
@@ -87,6 +90,7 @@ button:hover {
 }
 
 .portfolio {
+    font-size: 19px;
     text-align: center;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -96,6 +100,7 @@ button:hover {
     margin-left: 13pc;
 }
 .heading2 {
+   font-size: 40px;
     text-align: center;
     margin-top: 5pc;
     margin-bottom: 5pc;
@@ -119,18 +124,18 @@ img:hover {
 }
 .image img{
     height: 500px;
-    margin-left: 20pc;
+    margin-left: 18pc;
 }
 .about {
     display: block;
-    margin-top: 10px;
-    line-height: 43px;
+    line-height: 41px;
     margin-left: 40px;
     font-size: 18px;
 }
 #about-heading {
-    margin-top: 40px;
-
+    font-size: 28px;
+    margin-bottom: 0;
+    margin-top: 25px;
 }
 .home-page {
     background-color: #1f2839;
@@ -167,4 +172,33 @@ img:hover {
 }
 #dwnld-btn {
     margin: 0;
+}
+.contact-information {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 13pc;
+    margin-bottom: 3pc;
+}
+#email2 , #phone , #address {
+    border: none;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+}
+.information {
+    margin-top: 3.5px;
+    line-height: 6px;
+}
+.mycontact {
+    padding-bottom: 20px;
+    margin-left: 0.8pc;
 }
