@@ -50,11 +50,12 @@ a:hover {
     margin: 3pc;
     margin-left: 12.8pc;
     margin-top: 7pc;
-    margin-bottom: 7pc;
     align-items: center;
     line-height: 8px;
 }
 input {
+    color: white;
+    font-size: 17px;
     border: 2px solid rgba(50, 158, 201, 0.582);
     border-radius: 8px;
     width: 23pc;
@@ -65,7 +66,9 @@ input:hover {
     background-color: rgba(28, 67, 117, 0.114) ;
 }
 textarea {
-   margin-top: 8px;
+    color: white;
+    font-size: 17px;
+    margin-top: 8px;
     width: 46.8pc;
     border: 2px solid rgba(50, 158, 201, 0.582);
     border-radius: 8px;
@@ -201,4 +204,21 @@ img:hover {
 .mycontact {
     padding-bottom: 20px;
     margin-left: 0.8pc;
+}
+.connect {
+    padding-left: 48pc;
+}
+.connect-via {
+    font-size: 17px;
+}
+.connect img {
+    margin-top: 0;
+    border: none;
+    border-radius: 0;
+    width: 45px;
+    height: 40px;
+}
+.connect-img {
+    margin-left: 0.7pc;
+    width: 200px;
 }
