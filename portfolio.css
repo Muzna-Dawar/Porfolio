@@ -11,7 +11,7 @@ body {
     align-items: center;
 }
 .heading {
-   font-size: 20px;
+    font-size: 20px;
     margin: 4px;
     margin-left: 8.5pc;
     display: block;
@@ -41,7 +41,6 @@ a:hover {
 .contact-heading {
     font-size: 40px;
     text-align: center;
-    margin-bottom: 5pc;
     margin-top: 10pc;
 }
 .contact-form {
@@ -49,7 +48,8 @@ a:hover {
     flex-direction: row;
     margin: 3pc;
     margin-left: 12.8pc;
-    margin-top: 7pc;
+    margin-top: 5pc;
+    margin-bottom: 5pc;
     align-items: center;
     line-height: 8px;
 }
@@ -103,19 +103,19 @@ button:hover {
     margin-left: 13pc;
 }
 .heading2 {
-   font-size: 40px;
+    font-size: 40px;
     text-align: center;
     margin-top: 5pc;
     margin-bottom: 5pc;
 }
-img {
+.portfolio img {
     border: 1px solid rgb(50, 158, 201);
     width: 25pc;
     height: 15pc;
     border-radius: 10px;
     margin: 10px;
 }
-img:hover {
+.portfolio img:hover {
     background-color: #151b27;
     opacity: 0.7;
 }
@@ -126,25 +126,27 @@ img:hover {
     margin-bottom: 10pc;
 }
 .image img{
-    height: 500px;
-    margin-left: 18pc;
+    border: 1px solid rgb(50, 158, 201);
+    border-radius: 10px;
+    height: 550px;
+    margin-left: 15pc;
 }
 .about {
     display: block;
-    line-height: 41px;
-    margin-left: 40px;
-    font-size: 18px;
+    line-height: 44px;
+    margin-left: 50px;
+    font-size: 19.5px;
 }
 #about-heading {
     font-size: 28px;
     margin-bottom: 0;
-    margin-top: 25px;
+    margin-top: 24px;
+
 }
 .home-page {
     background-color: #1f2839;
     display: flex;
     flex-direction: row;
-    padding-left: 20pc;
     padding-top: 6pc;
     padding-bottom: 8pc;
 }
@@ -153,6 +155,7 @@ img:hover {
     flex-direction: column;
     padding-top: 9pc;
     line-height: 1px;
+    padding-left: 17pc;
 }
 .abt{
     font-size: 23px;
@@ -162,9 +165,12 @@ img:hover {
     font-size: 60px;
 }
 #home-img {
+    border: 1px solid rgb(50, 158, 201);
+    border-radius: 10px;
     width: 30pc;
     height: 30pc;
     border-radius: 100%;
+    margin-left: 8pc;
 }
 #line {
     margin-top: 5px;
@@ -188,6 +194,7 @@ img:hover {
     width: 30px;
     height: 30px;
     margin-bottom: 10px;
+    margin: 10.2px;
 }
 #form {
     display: flex;
@@ -198,8 +205,12 @@ img:hover {
     flex-direction: row;
 }
 .information {
-    margin-top: 3.5px;
+    margin-left: 5px;
+    margin-top: 3px;
     line-height: 6px;
+}
+.contact-icons {
+    line-height: 5px;
 }
 .mycontact {
     padding-bottom: 20px;
@@ -219,6 +230,39 @@ img:hover {
     height: 40px;
 }
 .connect-img {
-    margin-left: 0.7pc;
+    margin-left: 1.8pc;
     width: 200px;
+}
+.skills-section {
+    margin-bottom: 10pc;
+}
+.myskills {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10pc;
+    margin-bottom: 5pc;
+}
+.skills-container img {
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(50, 158, 201);
+    border-radius: 30px;
+}
+.skills-container {
+    font-size: 19px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 78pc;
+    margin-left: 13pc;
+}
+.skill1 , .skill2 , .skill3 {
+    height: 15pc;
+    background-color: #1f2839;
+    padding: 20px;
+    padding-top: 4pc;
+    text-align: center;
+    border: 1px solid rgb(50, 158, 201);
+    border-radius: 30px;
 }
