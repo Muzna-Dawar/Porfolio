@@ -49,7 +49,7 @@ a:hover {
     margin: 3pc;
     margin-left: 12.8pc;
     margin-top: 5pc;
-    margin-bottom: 5pc;
+    margin-bottom: 3pc;
     align-items: center;
     line-height: 8px;
 }
@@ -218,21 +218,26 @@ button:hover {
     margin-left: 0.8pc;
 }
 .connect {
-    padding-left: 48pc;
+    height: 9pc;
+    background-color: #1f2839;
 }
-.connect-via {
-    font-size: 17px;
+.connect-via h2 {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 7px;
 }
 .connect img {
-    margin-top: 0;
     border: none;
-    border-radius: 0;
+    border-radius: 30px;
     width: 45px;
     height: 40px;
 }
 .connect-img {
-    margin-left: 1.8pc;
+    margin-left: 49.8pc;
     width: 200px;
+}
+.copywrite {
+    text-align: center;
 }
 .skills-section {
     margin-bottom: 10pc;
@@ -258,12 +263,17 @@ button:hover {
     width: 78pc;
     margin-left: 13pc;
 }
-.skill1 , .skill2 , .skill3 {
+.skill1 , .skill2 , .skill3 , .skill4{
+    width: 20pc;
     height: 15pc;
     background-color: #1f2839;
-    padding: 20px;
-    padding-top: 4pc;
+    padding: 15px;
+    padding-top: 2pc;
     text-align: center;
     border: 1px solid rgb(50, 158, 201);
     border-radius: 30px;
+}
+.skill4 {
+    margin-top: 3pc;
+    grid-column: 2;
 }
