@@ -55,3 +55,7 @@ function javashowdetails(id) {
 function javahidedetails(id) {
     document.getElementById("java-details").style.display = 'none';
 }
+
+function send() {
+    alert ("Thank you for reaching out! Your message has been submitted successfully. We'll get back to you soon.");
+}

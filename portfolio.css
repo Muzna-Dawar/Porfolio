@@ -48,7 +48,7 @@ a:hover {
     flex-direction: row;
     margin: 3pc;
     margin-left: 12.8pc;
-    margin-top: 5pc;
+    /* margin-top: 5pc; */
     margin-bottom: 3pc;
     align-items: center;
     line-height: 8px;
@@ -112,8 +112,8 @@ button:hover {
 .heading2 {
     font-size: 40px;
     text-align: center;
-    margin-top: 5pc;
-    margin-bottom: 2pc;
+    /* margin-top: 5pc; */
+    margin-bottom: 4pc;
 }
 .portfolio img {
     position: relative;
@@ -137,6 +137,7 @@ button:hover {
     padding: 5px 8px 5px 8px;
     margin-left: 20px;
     margin-right: 20px;
+    border-radius: 7px;
     /* align-items: center;
     justify-content: center; */
 }
@@ -149,12 +150,11 @@ button:hover {
 .about-me {
     display: flex;
     flex-direction: row;
-    margin-top: 10pc;
-    margin-bottom: 10pc;
+    margin-top: 7.8pc;
 }
 .image img{
     border: 1px solid rgb(50, 158, 201);
-    border-radius: 10px;
+    border-radius: 30px;
     height: 550px;
     margin-left: 15pc;
 }
@@ -243,6 +243,9 @@ button:hover {
     padding-bottom: 20px;
     margin-left: 0.8pc;
 }
+#send-btn {
+    border-radius: 10px;
+}
 .connect {
     height: 9pc;
     background-color: #1f2839;
@@ -266,12 +269,12 @@ button:hover {
     text-align: center;
 }
 .skills-section {
-    margin-bottom: 10pc;
+    margin-bottom: 5pc;
 }
 .myskills {
     font-size: 40px;
     text-align: center;
-    margin-top: 10pc;
+    margin-top: 8pc;
     margin-bottom: 5pc;
 }
 .skills-container img {
