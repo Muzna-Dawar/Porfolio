@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muzna Dawar</title>
-    <link rel="shortcut icon" href="M logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="M favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="portfolio.css">
     <script src="portfolio.js"></script>
 </head>
@@ -16,7 +16,7 @@
         <div class="div2">
             <ul class="links">
                 <li><a href="#home">Home</a></li>
-                <li><a href="./about.html">About</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -28,12 +28,9 @@
 
     <div class="home-page">
         <div class="intro">
-        <h1 class="name">Muzna Dawar</h1>
+        <h1 class="blue" id="name">Muzna Dawar</h1>
         <h4 class="abt">Aspiring Web Developer</h4>
         <p class="blue" id="line" >_______________________________________</p>
-        <div class="download">
-        <button id="dwnld-btn" type="button">Dounload CV ↓</button>
-        </div>
         </div>
         <div>
             <img id="home-img" src="image.jpg">
@@ -70,30 +67,33 @@
           <div class="skill1">
             <img src="HTML.png" alt="HTML 5">
             <h3>HTML 5</h3>
-            <p>Building the structure of web pages with
-                <br>clean, semantic, and accessible
-                <br>code using HTML5.</p>
+            <p>Building the structure of web pages
+                <br>with clean, semantic, and 
+                <br>accessible code using 
+                <br>HTML5.</p>
           </div>
           <div class="skill2">
             <img src="CSS.png" alt="CSS 3">
             <h3>CSS 3</h3>
-            <p>Styling web pages with modern designs,
-                <br>responsive layouts, and creative
-                <br>animations using CSS3.</p>
+            <p>Styling web pages with modern
+                <br>designs, responsive layouts,
+                <br> and creative animations
+                <br>using CSS3.</p>
           </div>
           <div class="skill3">
             <img src="JS.png" alt="JavaScript">
             <h3>JavaScript (Learning)</h3>
-            <p>Exploring and implementing interactivity
-                <br>and dynamic functionality to websites
+            <p>Exploring and implementing
+                <br>interactivity and dynamic
+                <br>functionality to websites 
                 <br>through JavaScript.</p>
           </div>
           <div class="skill4">
             <img src="vercontrol.png" alt="vercontrol">
             <h3>Version Control</h3>
-            <p>Exploring and implementing interactivity
-                <br>and dynamic functionality to websites
-                <br>through JavaScript.</p>
+            <p>Familiar with using Git and GitHub
+                <br>for code management, version
+                <br>tracking, and basic project collaboration.</p>
           </div>
         </div>
       </div>
@@ -108,45 +108,168 @@
     <div class="portfolio">
 
         <div>
-            <a href="https://docs.google.com/document/d/1P87BZoqg157IkEV_I9T3AbNzC7SzeFRU/edit?usp=sharing&ouid=102104290992390402520&rtpof=true&sd=true">
-            <img src="https://i.ytimg.com/vi/7hRMD9IqADM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCAx11CP0oZcYZIgUCMo3E_RJa7KA"> <br>Gallery
+            <img src="https://i.ytimg.com/vi/7hRMD9IqADM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCAx11CP0oZcYZIgUCMo3E_RJa7KA">
+            <h3>Grid Gallery</h3>
+            <div class="grid-gallery-btn">
+            <a href="https://css-gridgallery.netlify.app">
+            <button>View</button>
             </a>
+            <button onmouseover="gridshowdetails()" onmouseout="gridhidedetails()">Details</button>
+            </div>
+            <p id="grid-gallery" class="details">
+                <br>Grid Gallery: A simple image gallery designed
+                <br>using HTML and styled with CSS Grid to
+                <br>display vintage-inspired photos.
+            </p>
         </div>
 
 
+
+
         <div>
-            <a href="https://docs.google.com/document/d/1aqclaeD0qMq9yruHR_10FmEmNbY8ROHh/edit?usp=sharing&ouid=102104290992390402520&rtpof=true&sd=true">
-            <img src="https://verpex.com/assets/uploads/images/blog/Basic-HTML-Codes-for-Websites.webp?v=1691760654"> <br> Navbar
+            <img src="https://w3layouts.com/wp-content/uploads/2016/09/registration_login_form.jpg">
+            <h3>Registration Form</h3>
+            <div class="registration-btn">
+            <a href="https://muzna-dawar.github.io/Registration-form/">
+            <button>View</button>
             </a>
+            <button onmouseover="formshowdetails()" onmouseout="formhidedetails()">Details</button>
+            </div>
+            <p id="regi-form" class="details">
+                <br>Registration Form: A responsive
+                <br>registration form featuring a clean
+                <br> design and seamless usability.
+            </p>
         </div>
 
 
+
+
+        <!-- <div>
+            <a href="https://muzna-dawar.github.io/Registration-form/">
+            <img src="https://w3layouts.com/wp-content/uploads/2016/09/registration_login_form.jpg"> 
+            <p><br>Registration Form: A responsive
+            <br>registration form featuring a clean
+            <br> design and seamless usability.</p>
+            </a>
+        </div> -->
+
+
+
         <div>
+            <img src="https://i.ytimg.com/vi/UKPyDsBNNCc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCsqpOZn82NeVFnHQgWCStTJE6-Yw">
+            <h3>Simple Arithmetic Calculator</h3>
+            <div class="calculator-btn">
+            <a href="https://arithmetic-calc.netlify.app">
+            <button>View</button>
+            </a>
+            <button onmouseover="calshowdetails()" onmouseout="calhidedetails()">Details</button>
+            </div>
+            <p id="calc-details" class="details">
+                <br>Arithmetic Calculator: A basic calculator,
+                <br>offering essential arithmetic operations
+                <br>with a clean and functional design.
+            </p>
+        </div>
+
+
+
+
+
+        <!-- <div>
+            <a href="https://arithmetic-calc.netlify.app">
+            <img src="https://i.ytimg.com/vi/UKPyDsBNNCc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCsqpOZn82NeVFnHQgWCStTJE6-Yw"> 
+            <p><br>Arithmetic Calculator: A basic calculator,
+            <br>offering essential arithmetic operations
+        <br>with a clean and functional design.</p>
+            </a>
+        </div> -->
+
+
+
+        <div>
+            <img src="temp1.png">
+            <h3>Temperature Converter</h3>
+            <div class="calculator-btn">
+            <a href="https://temp-transformer.netlify.app">
+            <button>View</button>
+            </a>
+            <button onmouseover="tempshowdetails()" onmouseout="temphidedetails()">Details</button>
+            </div>
+            <p id="temp-details" class="details">
+                <br>Temperature Converter: A basic calculator,
+                <br>offering essential arithmetic operations
+                <br>with a clean and functional design.
+            </p>
+        </div>
+
+
+
+        <!-- <div>
+            <a href="https://temp-transformer.netlify.app">
+            <img src="https://verpex.com/assets/uploads/images/blog/Basic-HTML-Codes-for-Websites.webp?v=1691760654"> 
+            <p>
+            <br>Temperature Converter: A basic calculator,
+            <br>offering essential arithmetic operations
+            <br>with a clean and functional design.</p>
+            </a>
+        </div> -->
+
+
+
+        <div>
+            <img src="temp1.png">
+            <h3>Home Page</h3>
+            <div class="home-btn">
+            <a href="https://temp-transformer.netlify.app">
+            <button>View</button>
+            </a>
+            <button onmouseover="homeshowdetails()" onmouseout="homehidedetails()">Details</button>
+            </div>
+            <p id="home-details" class="details">
+                <br>Temperature Converter: A basic calculator,
+                <br>offering essential arithmetic operations
+                <br>with a clean and functional design.
+            </p>
+        </div>
+
+
+
+
+        <!-- <div>
             <a href="https://docs.google.com/document/d/1ShKHe5KTzfgUgE0EXp4AOniN7sNhnSRV/edit?usp=sharing&ouid=102104290992390402520&rtpof=true&sd=true">
-            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhG_w67LfJLnCFqYwyjK4R06OM8fNKfe1pWXPo1_8nUlNwY66WUYzyzKXPfPf3ZJu68kg9LAKtOascS57hpJWjZi8pjLQ8F66afWYoUuOW5IsN51diuidlE99fQbPHniXCZc35f3pNwYtR7/s640/Full-Screen-Homepage-Design-HTML-CSS.jpg"> <br> Home Page
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhG_w67LfJLnCFqYwyjK4R06OM8fNKfe1pWXPo1_8nUlNwY66WUYzyzKXPfPf3ZJu68kg9LAKtOascS57hpJWjZi8pjLQ8F66afWYoUuOW5IsN51diuidlE99fQbPHniXCZc35f3pNwYtR7/s640/Full-Screen-Homepage-Design-HTML-CSS.jpg"> 
+            <br> Home Page
             </a>
-        </div>
+        </div> -->
+
 
 
         <div>
+            <img src="temp1.png">
+            <h3>JavaScript</h3>
+            <div class="java-btn">
+            <a href="https://temp-transformer.netlify.app">
+            <button>View</button>
+            </a>
+            <button onmouseover="javashowdetails()" onmouseout="javahidedetails()">Details</button>
+            </div>
+            <p id="java-details" class="details">
+                <br>Temperature Converter: A basic calculator,
+                <br>offering essential arithmetic operations
+                <br>with a clean and functional design.
+            </p>
+        </div>
+
+
+
+
+        <!-- <div>
             <a href="https://docs.google.com/document/d/1KyL2WhYVf13MViO-QgteNNsb_35f0jvj/edit?usp=sharing&ouid=102104290992390402520&rtpof=true&sd=true">
-            <img src="https://media.istockphoto.com/id/1284271878/photo/javascript-inscription-against-laptop-and-code-background-learn-javascript-programming.jpg?s=612x612&w=0&k=20&c=H9FI5X3ZBQIyEijvhJc-jv5McwCh-BxqQPxee9Aoa08="> <br> JavaScript
+            <img src="https://media.istockphoto.com/id/1284271878/photo/javascript-inscription-against-laptop-and-code-background-learn-javascript-programming.jpg?s=612x612&w=0&k=20&c=H9FI5X3ZBQIyEijvhJc-jv5McwCh-BxqQPxee9Aoa08="> 
+            <br> JavaScript
             </a>
-        </div>
-
-
-        <div>
-            <a href="https://docs.google.com/document/d/1H1KGjBr4kmHljZ4oYjNQuv4RxBkc6u89/edit?usp=sharing&ouid=102104290992390402520&rtpof=true&sd=true">
-            <img src="https://i.ytimg.com/vi/UKPyDsBNNCc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCsqpOZn82NeVFnHQgWCStTJE6-Yw"> <br> Calculator
-            </a>
-        </div>
-
-
-        <div>
-            <a href="https://docs.google.com/document/d/1NJfvNWtXAMSFINm5mzl3GCFoE4XyRqEX/edit?usp=sharing&ouid=102104290992390402520&rtpof=true&sd=true">
-            <img src="https://i.ytimg.com/vi/524ycUqs3f0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA2LYWe2cDx2TW9ToDzCfAniWPJQQ"> <br> Contact Form
-            </a>
-        </div>
+        </div> -->
 
 
     </div>
@@ -186,7 +309,7 @@
         <div id="form" >
         <div>
             <form>
-                <input type="text" name="fullname" id="name" placeholder="Full Name">
+                <input type="text" name="fullname" id="fullname" placeholder="Full Name">
                 <input type="email" name="email" id="email" placeholder="Email Address">
                 <br><br>
                 <input type="number" name="number" id="number" placeholder="Mobile Number">

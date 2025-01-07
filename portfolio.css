@@ -93,7 +93,7 @@ button:hover {
 }
 
 .portfolio {
-    font-size: 19px;
+    /* font-size: 19px; */
     text-align: center;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -101,24 +101,50 @@ button:hover {
     justify-content: space-around;
     width: 80pc;
     margin-left: 12.5pc;
-    gap: 30px;
+    column-gap: 10pc;
+    row-gap: 5.5pc;
+}
+.portfolio p {
+    position: absolute;
+    font-size: 16px;
+    margin: 0;
 }
 .heading2 {
     font-size: 40px;
     text-align: center;
     margin-top: 5pc;
-    margin-bottom: 5pc;
+    margin-bottom: 2pc;
 }
 .portfolio img {
+    position: relative;
     border: 1px solid rgb(50, 158, 201);
-    width: 22pc;
-    height: 13pc;
+    width: 18pc;
+    height: 11pc;
     border-radius: 10px;
-    margin: 10px;
+    /* margin: 10px; */
 }
 .portfolio img:hover {
     background-color: #151b27;
     opacity: 0.7;
+}
+.portfolio h3 {
+    margin: 5px 0 0 0;
+    padding: 0;
+}
+.portfolio button {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px 8px 5px 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* align-items: center;
+    justify-content: center; */
+}
+.details {
+    display: none;
+}
+#regi-form {
+    margin-left: 1.8pc;
 }
 .about-me {
     display: flex;
@@ -161,7 +187,7 @@ button:hover {
 .abt{
     font-size: 23px;
 }
-.name {
+#name {
     margin-right: 10pc;
     font-size: 60px;
 }
