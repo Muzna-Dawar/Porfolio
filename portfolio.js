@@ -49,11 +49,11 @@ function homehidedetails(id) {
 
 
 
-function javashowdetails(id) {
-    document.getElementById("java-details").style.display = 'block';
+function contactshowdetails(id) {
+    document.getElementById("contactus-page").style.display = 'block';
 }
-function javahidedetails(id) {
-    document.getElementById("java-details").style.display = 'none';
+function contacthidedetails(id) {
+    document.getElementById("contactus-page").style.display = 'none';
 }
 
 function send() {
