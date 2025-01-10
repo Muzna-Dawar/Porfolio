@@ -1,11 +1,3 @@
-function gallery() {
-    document.getElementById("grid-gallery").innerHTML = 
-    "<br>" + "Grid Gallery: A simple image gallery designed" +
-    "<br>" + "using HTML and styled with CSS Grid to" +
-    "<br>" + "display vintage-inspired photos.";
-}
-
-
 function gridshowdetails(id) {
     document.getElementById("grid-gallery").style.display = 'block';
 }

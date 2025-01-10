@@ -48,7 +48,6 @@ a:hover {
     flex-direction: row;
     margin: 3pc;
     margin-left: 12.8pc;
-    /* margin-top: 5pc; */
     margin-bottom: 3pc;
     align-items: center;
     line-height: 8px;
@@ -93,7 +92,6 @@ button:hover {
 }
 
 .portfolio {
-    /* font-size: 19px; */
     text-align: center;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -112,7 +110,6 @@ button:hover {
 .heading2 {
     font-size: 40px;
     text-align: center;
-    /* margin-top: 5pc; */
     margin-bottom: 4pc;
 }
 .portfolio img {
@@ -121,7 +118,6 @@ button:hover {
     width: 18pc;
     height: 11pc;
     border-radius: 10px;
-    /* margin: 10px; */
 }
 .portfolio img:hover {
     background-color: #151b27;
@@ -138,8 +134,6 @@ button:hover {
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 7px;
-    /* align-items: center;
-    justify-content: center; */
 }
 .details {
     display: none;
@@ -180,7 +174,7 @@ button:hover {
 .intro {
     display: flex;
     flex-direction: column;
-    padding-top: 9pc;
+    padding-top: 7.5pc;
     line-height: 1px;
     padding-left: 17pc;
 }
@@ -202,12 +196,11 @@ button:hover {
 #line {
     margin-top: 5px;
 }
-.download {
-    margin-top: 15px;
+.home-page button {
+    margin-top: 1pc;
+    width: 16pc;
+    cursor: pointer;
 
-}
-#dwnld-btn {
-    margin: 0;
 }
 .contact-information {
     font-size: 20px;
@@ -275,7 +268,7 @@ button:hover {
     font-size: 40px;
     text-align: center;
     margin-top: 8pc;
-    margin-bottom: 5pc;
+    margin-bottom: 3pc;
 }
 .skills-container img {
     width: 60px;
