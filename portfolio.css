@@ -120,8 +120,10 @@ button:hover {
     border-radius: 10px;
 }
 .portfolio img:hover {
+    box-shadow: 0 0 20px rgb(50, 158, 201) ;
     background-color: #151b27;
-    opacity: 0.7;
+    transform:scale(1.1);
+    opacity: 0.8;
 }
 .portfolio h3 {
     margin: 5px 0 0 0;
@@ -192,6 +194,10 @@ button:hover {
     height: 30pc;
     border-radius: 100%;
     margin-left: 8pc;
+}
+#home-img:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 50px rgb(50, 158, 201);
 }
 #line {
     margin-top: 5px;
@@ -275,6 +281,7 @@ button:hover {
     height: 60px;
     border: 1px solid rgb(50, 158, 201);
     border-radius: 30px;
+    box-shadow: 0 0 10px rgb(50, 158, 201);
 }
 .skills-container {
     font-size: 19px;
@@ -298,4 +305,16 @@ button:hover {
 .skill4 {
     margin-top: 3pc;
     grid-column: 2;
+}
+.skill1:hover {
+    box-shadow: 0 0 20px rgb(50, 158, 201);
+}
+.skill2:hover {
+    box-shadow: 0 0 20px rgb(50, 158, 201);
+}
+.skill3:hover {
+    box-shadow: 0 0 20px rgb(50, 158, 201);
+}
+.skill4:hover {
+    box-shadow: 0 0 20px rgb(50, 158, 201);
 }
